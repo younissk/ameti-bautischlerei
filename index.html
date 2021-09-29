@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameti Bautischlerei</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg"></div>
+        <!-- Nav bar -->
+        <nav role="navigation">
+            <!-- This is the navigator shown when in desktop mode -->
+            <div class="desktop-navigator">
+                <a href="#start"><h3>Start</h3></a>
+                <a href="#leistungen"><h3>Leistungen</h3></a>
+                <a href="#ueber-uns"><h3>Über uns</h3></a>
+                <a href="#projekte"><h3>Projekte</h3></a>
+                <a href="#kontakt"><h3>Kontakt</h3></a>
+            </div>
+            <!-- This is the hamburger navigator for mobile mode, Made by Erik Terwan -->
+            <div id="menuToggle" class="burger-navigator">
+                <!-- A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
+                <input type="checkbox" />
+                <!-- Some spans to act as a hamburger. -->
+                <span></span>
+                <span></span>
+                <span></span>
+                <!-- The menu itself -->
+                <ul id="menu">
+                    <a href="#start"><li>Start</li></a>
+                    <a href="#leistungen"><li>Leistungen</li></a>
+                    <a href="#ueber-uns"><li>Über uns</li></a>
+                    <a href="#projekte"><li>Projekte</li></a>
+                    <a href="#kontakt"><li>Kontakt</li></a>
+                </ul>
+              </div>
+        </nav>
+        <!-- Start section -->
+        <section id="start" >
+            <div class="start-container">
+                <!-- title -->
+                <h1 class="title" id="message">Qualität die überzeugt</h1>
+                <!-- Icon -->
+                <a href="#leistungen" id="arrow"><i class="material-icons">expand_more</i></a>
+                <!-- Logo -->
+                <img src="./assets/21368 Ameti Bautischler logo design_4_final_curved_17092021.svg" alt="logo" id="logo">
+            </div>
+        </section>
+        <!-- leistungen section -->
+        <section id="leistungen" >
+            <div class="content">
+                <h1>Unsere Leistungen</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="assets\leistungen-1.jpeg" alt="" class="card-image">
+                        <h3>Herstellung von Fenstern und Türen</h3>
+                        <p>Durch Jahrzehnte lange Erfahrung mit Fenstern und Türen können wir höchste Qualität bieten. Bei Sanierungen; Tischler-, Glaser-, Malerarbeiten, alles aus einer Hand. Aber auch neue Fenster inkl. Einbau bieten wir gerne an.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets\leistungen-2.jpeg" alt="" class="card-image">
+                        <h3>Reparatur bei Glasbruch</h3>
+                        <p>Schnelles Auswechseln zerbrochener Fenstergläser oder Türgläser, egal ob es sich um einfache Floatgläser oder Sicherheitsgläser handelt. Wir sind für Sie da.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets\leistungen-3.jpeg" alt="" class="card-image">
+                        <h3>Reparatur von Einbruchschäden</h3>
+                        <p>Retter in der Not. Wir arbeiten mit Versicherungen zusammen und bieten professionelle Reparatur bei Einbruchschäden (bei Bedarf auch mit Anstrich). </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ueber-uns" >
+            <div class="left">
+                <h1>Über uns</h1>
+                <p>
+                    Unser Spezialgebiet ist die Reparatur von alten Fenstern und Türen aus Holz. Besonders in Wien, wo vor Allem die Ringbezirke mit Ihren Altbauten strahlen, benötigt man fähige Bautischler.
+                    
+                    In dem Fall kommt unser Team in den Einsatz.
+                    
+                    Wir tauschen Gläser aus, bringen Dichtungen an, schleifen und streichen Ihre Türen und Fenster mit einem Ergebnis das sich sehen lässt. <br> <br> Falls das Holz nicht zu retten ist, können wir auch neue Holzfenster bzw. Holztüren inkl. Montage bieten.</p>
+            </div>
+            <div class="right">
+                <img src="assets\21368 Ameti Bautischler logo design_4_final_curved_17092021-01.png" alt="">
+            </div>
+        </section>
+        <section id="projekte" >
+            <h1>Projekte</h1>
+            <div class="main-gallery js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/1.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/2.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/3.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/4.jpeg " alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/5.jpeg " alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/6.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/7.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/8.jpeg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="./assets/carousel/9.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="kontakt" >
+            <h1>Kontakt</h1>
+            <div class="info-box">
+                <div class="l">
+
+                    <h3>Ort:</h3> <p>Karl-Schwed-Gasse 75-81 - 1230 Wien</p>
+                    <h3>Email:</h3> <p>office@ameti-bautischlerei.at</p>
+                    <h3>Tel.:</h3> <p>+436991996677</p>
+                </div>
+                <div class="r">
+                    <p>
+                        Wenn Sie sich auf eine Stelle im Bereich Tischlerei bewerben möchten, senden Sie bitte einen Lebenslauf an: office@ameti-bautischlerei.at
+                    </p> 
+                </div>
+                <h3>
+                    <a href="impressum.html">Impressum</a>
+                </h3>
+            </div>
+        </section>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
