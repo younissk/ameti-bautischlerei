@@ -1,0 +1,39 @@
+/* Ueber uns section */
+
+#ueber-uns {
+  display: flex;
+  height: auto;
+}
+
+.left {
+  max-width: 50vw;
+  background-color: whitesmoke;
+}
+
+.left p {
+  margin: 3rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+  line-height: 3rem;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vw;
+  /* background-color: blue; */
+}
+
+.right img {
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .right {
+    display: none;
+  }
+  .left {
+    max-width: 100vw;
+  }
+}

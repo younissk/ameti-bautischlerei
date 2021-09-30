@@ -1,0 +1,87 @@
+/* Kontakt */
+
+#kontakt {
+  height: 80vh;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.info-box {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  /* background-color: brown; */
+  justify-content: space-around;
+}
+
+.info-box h3 {
+  color: var(--green);
+}
+
+.r {
+  width: auto;
+  margin: 3rem 0;
+  height: auto;
+  /* background-color: red; */
+  max-width: 500px;
+}
+
+.l {
+  width: auto;
+  margin: 3rem 0;
+  height: auto;
+  /* background-color: red; */
+
+}
+
+.info-box a {
+  text-decoration: none;
+  color: var(--brown);
+}
+
+.info-box p {
+  margin: 1rem 0;
+}
+
+.button {
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  background-color: var(--green);
+  width: 100px;
+}
+
+#impressum {
+  color: white;
+  text-decoration: none;
+}
+
+.hobel {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  background-image: url(../assets/Hobel.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom: 30px solid var(--brown);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .info-box {
+    height: auto;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+  #kontakt {
+    height: auto;
+  }
+  .r {
+    height: auto;
+    max-width: 90vw;
+    margin-bottom: 7rem;
+  }
+  .hobel {
+    height: 10vh;
+  }
+}

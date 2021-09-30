@@ -1,0 +1,61 @@
+/* Leistungen */
+
+#leistungen {
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  max-width: 70vw;
+}
+
+.card {
+  background-color: whitesmoke;
+  max-width: 30%;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 2px 2px 0 0;
+}
+
+.card p {
+  padding: 1rem;
+  padding-top: 0;
+  font-size: 1rem;
+}
+
+.card h3 {
+  padding: 1rem;
+  color: var(--green);
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card-container {
+    flex-direction: column;
+  }
+  .card {
+    max-width: 100%;
+  }
+
+  section {
+    height: auto;
+  }
+}
