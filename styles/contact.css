@@ -3,16 +3,16 @@
 #kontakt {
   background-color: whitesmoke;
   position: relative;
+  height: 93vh;
 }
 
 .info-box {
   display: flex;
-  padding: 1rem;
+  padding: 0 1rem;
   width: 100%;
   /* background-color: brown; */
   justify-content: space-around;
   /* background-color: blue; */
-  margin-bottom: -10rem;
 }
 
 h2 {
@@ -67,10 +67,10 @@ h2 {
 
 .hobel {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   position: absolute;
   bottom: 0;
-  border-bottom: 30px solid var(--brown);
+  border-bottom: 15px solid var(--brown);
   /* background-color: blue; */
 }
 
