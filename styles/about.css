@@ -26,7 +26,7 @@
 }
 
 .right img {
-  width: 100%;
+  width: 80%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -35,5 +35,9 @@
   }
   .left {
     max-width: 100vw;
+  }
+
+  .left p {
+    line-height: 2rem;
   }
 }

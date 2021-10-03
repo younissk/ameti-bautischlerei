@@ -8,7 +8,7 @@
   /* background-color: red; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   width: 100%;
   height: 90%;
@@ -18,25 +18,32 @@
   color: white;
   text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.3);
   font-size: 5rem;
-  margin: 1rem;
+  /* margin: 1rem; */
+  margin-bottom: 0.5rem;
+
   padding: 1rem;
   max-width: 500px;
   text-align: center;
+  /* background-color: red; */
 }
 
 #arrow {
   text-decoration: none;
   color: white;
-  padding: 1rem;
-  margin: 1rem;
+  margin-top: 0;
+  /* padding: 1rem; */
+  margin-bottom: 1rem;
   text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.3);
 }
 
 #arrow i {
+  /* background-color: red; */
+
   font-size: 5rem;
 }
 
 #logo {
+  /* background-color: red; */
   size: contain;
   object-fit: contain;
 }

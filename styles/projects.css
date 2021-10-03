@@ -4,12 +4,19 @@
 #projekte {
   /* background-color: red; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   padding: 0;
+  margin-top: 0;
+  /* background-color: red; */
   padding-bottom: 3rem;
   /* background-color: red; */
+}
+
+#projekte h1 {
+  /* background-color: blue; */
+  margin-top: 0;
 }
 
 .main-gallery {
