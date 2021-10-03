@@ -28,6 +28,7 @@
   color: white;
   padding: 1rem;
   margin: 1rem;
+  text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.3);
 }
 
 #arrow i {
