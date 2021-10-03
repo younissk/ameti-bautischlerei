@@ -1,7 +1,7 @@
 /* Kontakt */
 
 #kontakt {
-  height: 80vh;
+  /* height: 80vh; */
   background-color: whitesmoke;
   position: relative;
 }
@@ -12,26 +12,31 @@
   width: 100%;
   /* background-color: brown; */
   justify-content: space-around;
+  /* background-color: blue; */
 }
 
-.info-box h3 {
+h2 {
   color: var(--green);
 }
 
 .r {
   width: auto;
   margin: 3rem 0;
-  height: auto;
+  max-height: 500px;
   /* background-color: red; */
-  max-width: 500px;
+  max-width: 300px;
+  /* line-height: 2rem; */
 }
 
 .l {
   width: auto;
   margin: 3rem 0;
-  height: auto;
+  max-height: 500px;
   /* background-color: red; */
+}
 
+.r p {
+  line-height: 2rem;
 }
 
 .info-box a {
@@ -44,27 +49,54 @@
 }
 
 .button {
-  padding: 1rem 3rem;
+  /* padding: 1rem 3rem; */
   border-radius: 5px;
-  background-color: var(--green);
+  /* background-color: var(--green); */
   width: 100px;
 }
 
 #impressum {
-  color: white;
+  position: relative;
+  bottom: 0.5rem;
+  left: 3rem;
+
+  color: #1e2d3b;
   text-decoration: none;
 }
 
 .hobel {
   width: 100%;
-  height: 30vh;
+  height: 5vh;
   position: absolute;
   bottom: 0;
-  background-image: url(../assets/Hobel.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   border-bottom: 30px solid var(--brown);
+  /* background-color: blue; */
+}
+
+.hobel img {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  height: 13rem;
+  /* background-color: red; */
+}
+
+.logo-container {
+  margin: 0 0 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.logo-small {
+  display: none;
+}
+
+.logo-big {
+  margin: 0;
+  height: 10rem;
+  /* background-color: red; */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -76,12 +108,46 @@
   #kontakt {
     height: auto;
   }
+
+  .l {
+    margin-bottom: 0.5rem;
+  }
   .r {
+    margin-top: 0;
     height: auto;
     max-width: 90vw;
-    margin-bottom: 7rem;
+    margin-bottom: 0.3rem;
   }
   .hobel {
-    height: 10vh;
+    height: 5vh;
+  }
+  .hobel img {
+    display: none;
+  }
+
+  .logo-big {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+    margin: 0;
+    height: 10rem;
+    /* background-color: red; */
+  }
+
+  #impressum {
+    position: static;
+    /* background-color: red; */
+  }
+  .impressum-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: blue; */
+  }
+  .logo-container {
+    margin: 0 0 1rem 0;
   }
 }
